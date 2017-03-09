@@ -88,7 +88,7 @@ after the loader runs it becomes
           <a href="https://github.com/">Daniel Verejan</a>
         </a>
       </td>
-      <td align="center">
+      <!-- <td align="center">
         <a href="https://github.com/">
           <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/166921?v=3&s=150">
           <br />
@@ -101,7 +101,7 @@ after the loader runs it becomes
           <br />
           <a href="https://github.com/">Joshua Wiens</a>
         </a>
-      </td>
+      </td> -->
     </tr>
   <tbody>
 </table>
