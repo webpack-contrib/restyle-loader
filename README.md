@@ -78,10 +78,6 @@ after the loader runs it becomes
 
 <h2 align="center">Maintainers</h2>
 
-```bash
-https://api.github.com/users/MAINTAINER
-```
-
 <table>
   <tbody>
     <tr>
