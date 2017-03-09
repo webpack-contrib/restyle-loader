@@ -5,7 +5,7 @@
   "author": "Daniel Verejan",
   "scripts": {
     "test": "jest",
-    "travis:test": "yarn run test",
+    "travis:test": "yarn run test"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,14 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "jest": "^19.0.2"
+    "babel-cli": "^6.23.0",
+    "babel-jest": "^19.0.0",
+    "babel-preset-env": "^1.2.1",
+    "file-loader": "^0.10.1",
+    "jest": "^19.0.2",
+    "jsdom": "^9.11.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^2.2.1"
   },
   "engines": {
     "node": ">=4.3 <5.0.0 || >=5.10"
