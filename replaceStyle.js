@@ -1,6 +1,6 @@
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
-	Daniel Verejan @sokra
+	Daniel Verejan
 */
 function getFileName(path) {
 	if (typeof path !== "string") {
