@@ -12,7 +12,12 @@
   </a>
   <h1>restyle-loader</h1>
 </div>
+
+<div align="center">
+
 Updates style `<link>` href value with a hash to trigger a style reload
+
+</div>
 
 <h2 align="center">Install</h2>
 
@@ -21,8 +26,6 @@ npm install --save-dev restyle-loader
 ```
 
 <h2 align="center">Usage</h2>
-
-### Lorem
 
 [Documentation: Using loaders](https://webpack.js.org/loaders/)
 
