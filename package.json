@@ -1,6 +1,6 @@
 {
   "name": "restyle-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "restyle loader module for webpack",
   "author": "Daniel Verejan",
   "scripts": {
