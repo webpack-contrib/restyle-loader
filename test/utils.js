@@ -1,4 +1,3 @@
-
 const realFs = require('fs');
 const path = require('path');
 const jsdom = require('jsdom/lib/old-api');
@@ -9,7 +8,6 @@ let compiler;
 let jsdomHtml;
 
 module.exports = {
-
   run(hrefList, done) {
     compiler.run((err, stats) => {
       if (stats.compilation.errors.length) {
@@ -65,7 +63,7 @@ module.exports = {
     compiler.resolvers.context.fileSystem = fs;
 
     ['readFileSync', 'statSync'].forEach((fn) => {
-    // Preserve the reference to original function
+      // Preserve the reference to original function
       fs[`mem${fn}`] = fs[fn];
 
       compiler.inputFileSystem[fn] = (...args) => {
