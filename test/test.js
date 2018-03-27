@@ -1,12 +1,7 @@
-
 const path = require('path');
 const { run, setup } = require('./utils');
 
 let fs;
-
-test('adds 1 + 2 to equal 3', () => {
-  expect(1 + 2).toBe(3);
-});
 
 describe('Main test', () => {
   const requiredCss = '.required { color: blue }';
@@ -52,7 +47,10 @@ describe('Main test', () => {
 
   // Create a tiny file system. rootDir is used because loaders are refering to absolute paths.
   fs.mkdirpSync(rootDir);
-  fs.writeFileSync(`${rootDir}main.js`, `var css = require('./${styleHref}'); var secondCss = require('./${secondStyleHref}');`);
+  fs.writeFileSync(
+    `${rootDir}main.js`,
+    `var css = require('./${styleHref}'); var secondCss = require('./${secondStyleHref}');`
+  );
   fs.writeFileSync(rootDir + styleHref, requiredCss);
   fs.writeFileSync(rootDir + secondStyleHref, requiredCss);
 
