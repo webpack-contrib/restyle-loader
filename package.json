@@ -65,7 +65,6 @@
     "webpack": "^4.3.0",
     "webpack-defaults": "^2.0.0"
   },
-
   "pre-commit": "lint-staged",
   "lint-staged": {
     "*.js": [
