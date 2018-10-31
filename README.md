@@ -17,6 +17,8 @@
 
 Updates style `<link>` href value with a hash to trigger a style reload
 
+Loader new home: [restyle-loader](https://github.com/danielverejan/restyle-loader)
+
 </div>
 
 <h2 align="center">Install</h2>
